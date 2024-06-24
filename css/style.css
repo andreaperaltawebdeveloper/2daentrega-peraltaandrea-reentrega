@@ -1,0 +1,64 @@
+
+.logo {
+    height: 70px;
+    width: 110px; 
+}
+
+.navbar {
+    background-color: #124485;
+    color: white;
+}
+
+li a {
+    color: white;
+}
+
+.carousel-caption {
+    color: #124485;
+}
+
+.row-one {
+    background-color: #124485;
+    color: white;  
+}
+
+.row-whoone {
+    background-color: #124485;
+    color: white;  
+}
+
+.card img {
+    border: #cbc9c9;
+    border-style: solid;
+    margin-top: 12px;
+}
+
+.examsheading 
+
+h1 {
+    background-color: #cdc7c7
+    
+}
+
+.card {
+    background-color: #ebe3e3;
+}
+
+
+.row-whothree img {
+    height: 240px;
+    width: 280px; 
+}
+.moreinfocontainer {
+    background-color: #cbc9c9;
+}
+
+footer {
+    background-color: #124485 ;
+    color: rgb(227, 226, 240);
+    margin: 0;
+    padding: 0;
+}
+
+
+
