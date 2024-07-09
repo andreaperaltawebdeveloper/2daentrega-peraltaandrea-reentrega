@@ -1,4 +1,4 @@
-*{
+* {
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0;
     margin: 0;
@@ -9,12 +9,12 @@
 
 .logo {
     height: 90px;
-    width: 90px;
-    margin-left: 10px; 
+    width: 75px;
+    margin-left: 10px;
 }
 
 .navbar {
-    background-image: linear-gradient(to right, #124485,#3380d8);    
+    background-image: linear-gradient(to left, #4688df, #0a2f5a);
     color: white;
 }
 
@@ -29,43 +29,96 @@
     width: 20px;
     margin: 10px;
 }
+
+.socialnetworkItems svg {
+    height: 25px;
+    width: 25px
+}
+
 /*index main*/
 
+.carousel-inner img {
+    width: 100%;
+}
+
 .container-fluid {
-    margin: 0;
+    margin: 0px;
     padding: 0;
 }
 
-.row-one {
-    height: 150px;  
-    background-image: radial-gradient(ellipse 1000px 2000px, #0d1c68,#3380d8);
-    color: white; 
+.rowTitleOne {
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
-.row-one h1 {
-    margin-top: 20px;
-    font-size: 40px
+.rowTitleOne p {
+    font-size: 30px;
+    color: #0d1c68;
 }
 
-.row-one p {
+.rowMainOne {
+    background-color: rgb(243, 239, 239);
+    text-align: center;
+}
+
+.containerFluidTwo {
+    margin-top: 70px;
     margin-bottom: 50px;
-    font-size: 20px;
-    font-weight: bolder;
 
 }
 
-.card img {
-    border: #cbc9c9;
-    border-style: solid;
-    margin-top: 12px;
+.rowOne {
+    justify-content: center;
+    background-color: #d0ddeb;
+    padding: 80px;
+
 }
 
-.card {
-    background-color: #ebe3e3;
+.cardOne {
+    background-color: white;
+}
+
+.cardTitleOne {
+    margin: 10px;
+}
+
+.cardTextOne {
+    margin: 10px;
+}
+
+.cardBodyOne {
+    margin: 10px;
+}
+
+.row-three {
+    text-align: center;
 }
 
 .moreinfocontainer {
     background-color: #cbc9c9;
+    padding: 50px;
+    margin: 0px;
+}
+
+.containerFluidNovedades {
+    padding: 60px;
+    justify-content: center;
+}
+
+.textFour {
+    text-align: center;
+    font-size: 55px;
+    color: #0d1c68;
+}
+
+.imagennovedades {
+    align-items: center;
+}
+
+.imagennovedades img {
+    height: 200px;
+    width: 500px;
 }
 
 /*quienes somos main*/
@@ -78,16 +131,71 @@
     margin-bottom: 20px;
 }
 
-.row-whothree img {
-    height: 240px;
-    width: 280px; 
+.row-whothree {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-/*index main*/
+.row-whothree img {
+    height: 240px;
+    width: 280px;
+}
 
-.imgcursos {
-    height: 30px;
-    width: 50px;
+/*cursos main*/
+
+.containercards-fluid h1 {
+    color: #0d1c68;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.card-cursos {
+    background-color: rgb(229, 226, 226);
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.textCursos {
+    color: #0d1c68;
+    font-size: 45px;
+    text-align: center;
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+
+.card-title {
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+
+.card-text {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+    line-height: 30px;
+}
+
+.btnCursos {
+    padding: 10px;
+    background-color: #1b76dd;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-left: 50px;
 }
 
 /*examenes main*/
@@ -119,6 +227,7 @@
     padding-right: 30px;
     padding-left: 30px;
 }
+
 /*contacto main*/
 
 .container-fluid h3 {
@@ -134,11 +243,10 @@
     width: 650px;
 }
 
-/*all pages footer*/ 
+/*all pages footer*/
 
 footer {
-    background-color: #124485 ;
-    color: rgb(227, 226, 240);
+    background-image: linear-gradient(to left, #4688df, #0a2f5a);
     margin: 0;
     padding: 0;
 }
@@ -152,7 +260,93 @@ footer {
 }
 
 .container-pie svg {
-    height: 30px;
+    height: 25px;
     width: 30px;
     margin: 20px;
+    color: white;
+    margin: 5px;
+}
+
+/*MEDIA QUERIES - tablet*/
+
+@media (max-width: 768px) {
+
+    .cardOne {
+        margin-bottom: 30px;
+    }
+
+    .containerFluidNovedades {
+        justify-content: center;
+    }
+
+    .rowOne {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textFour {
+        font-size: 45px;
+    }
+
+    /*Page Cursos*/
+    .textCursos {
+        color: #0d1c68;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .card-cursos {
+        margin-top: 10px;
+        margin-right: 50px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        background-color: #ced5df;
+    }
+
+    .row img {
+        height: 300px;
+    }
+}
+
+I
+/*MEDIA QUERIES - mobile*/
+
+@media (max-width: 480px) {
+
+    .cardOne {
+        margin-bottom: 30px;
+    }
+
+    .containerFluidNovedades {
+        justify-content: center;
+    }
+
+    .rowOne {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .textFour {
+        font-size: 45px;
+    }
+
+    /*Page Cursos*/
+
+    .containercards-fluid h1 {
+        color: #0d1c68;
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    .textCursos {
+        color: #0d1c68;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .img-fluid {
+        height: 380px;
+        width: 380px
+    }
 }
