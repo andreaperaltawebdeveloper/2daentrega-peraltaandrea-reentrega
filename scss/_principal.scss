@@ -1,0 +1,169 @@
+/*index main*/
+
+.carousel-inner {
+    img {
+        width: 100%;
+    }
+}
+
+.container-fluid {
+    margin: 0px;
+    padding: 0;
+
+    .rowTitleOne {
+        text-align: center;
+        margin-top: 35px;
+        margin-bottom: 35px;
+
+        p {
+            font-size: 30px;
+            color: #0d1c68;
+        }
+    }
+
+    .rowMainOne {
+        background-color: rgb(243, 239, 239);
+        text-align: center;
+
+        .rowOne {
+            justify-content: center;
+            background-color: #d0ddeb;
+            padding: 80px;
+
+            .cardOne {
+                background-color: white;
+
+                .cardBodyOne {
+                    margin: 10px;
+
+                    .cardTitleOne {
+                        margin: 10px;
+                    }
+
+                    .cardTextOne {
+                        margin: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .row-three {
+        text-align: center;
+
+        .moreinfocontainer {
+            background-color: #cbc9c9;
+            padding: 50px;
+            margin: 0px;
+        }
+    }
+}
+
+
+/*quienes somos main*/
+
+.whocontainer {
+    .row-whoone {
+        color: #0d1c68;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .row-whothree {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        img {
+            height: 240px;
+            width: 280px;
+        }
+    }
+}
+
+/*cursos main*/
+
+.containercards-fluid {
+    h1 {
+        color: #0d1c68;
+        font-size: 60px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .textCursos {
+        color: #0d1c68;
+        font-size: 45px;
+        text-align: center;
+    }
+    .card-cursos {
+        background-color: rgb(229, 226, 226);
+        margin-top: 30px;
+        margin-right: 100px;
+        margin-left: 100px;
+        margin-bottom: 30px;
+        .card-body {
+            margin-top: 20px;
+            .card-title {
+                font-size: 30px;
+                margin-top: 40px;
+                margin-bottom: 10px;
+                margin-left: 50px;
+            }
+            .card-text {
+                font-size: 20px;
+                margin-top: 20px;
+                margin-right: 40px;
+                margin-bottom: 30px;
+                margin-left: 50px;
+                line-height: 30px;
+            }
+            .btnCursos {
+                padding: 10px;
+                background-color: #1b76dd;
+                color: white;
+                text-decoration: none;
+                border-radius: 10px;
+                margin-left: 50px;
+            }
+        }
+    }
+}
+
+/*examenes main*/
+
+.container-fluid {
+    h2 {
+    color: #0d1c68;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .buttonExam {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+        padding-top: 10px;
+        .button {
+            padding-right: 30px;
+            padding-left: 30px;
+        }
+    }
+}
+
+/*contacto main*/
+
+.contactocont {
+    h3 {
+    color: #0d1c68;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    }
+    img {
+        height: 400px;
+        width: 650px;
+    }
+} 

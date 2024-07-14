@@ -1,0 +1,21 @@
+/*all pages footer*/ 
+
+footer {
+    background-image: linear-gradient(to left, #4688df, #0a2f5a);
+    margin: 0;
+    padding: 0;
+    .container-pie {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-right: 20px;
+        margin-left: 20px;
+        svg {
+            height: 25px;
+            width: 30px;
+            margin: 20px;
+            color: white;
+            margin: 5px;
+        }
+    }
+}
