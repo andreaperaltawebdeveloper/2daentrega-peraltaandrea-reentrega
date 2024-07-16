@@ -1,3 +1,35 @@
+.mfs-xs {
+  font-size: 10px;
+}
+
+.mfs-sm {
+  font-size: 12px;
+}
+
+.mfs-md {
+  font-size: 14px;
+}
+
+.mfs-l {
+  font-size: 20px;
+}
+
+.mfs-xl {
+  font-size: 22px;
+}
+
+.mfw-light {
+  font-size: 400;
+}
+
+.mfw-medium {
+  font-size: 500;
+}
+
+.mfw-bold {
+  font-size: 900;
+}
+
 * {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
@@ -13,7 +45,7 @@
 }
 
 .navbar {
-  background-image: linear-gradient(to left, #4d96f7, #124485);
+  background-image: linear-gradient(to left, #4d96f7, #083775);
   color: white;
 }
 .navbar .nav-link {
@@ -30,6 +62,8 @@
 /*index main*/
 .carousel-inner img {
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 .container-fluid {
@@ -41,12 +75,17 @@
   margin-top: 35px;
   margin-bottom: 35px;
 }
+.container-fluid .rowTitleOne h1 {
+  font-size: 50px;
+  color: #083775;
+}
 .container-fluid .rowTitleOne p {
   font-size: 30px;
-  color: #0d1c68;
+  color: #083775;
+  text-shadow: 1px 1px 1px rgb(172, 166, 166);
 }
 .container-fluid .rowMainOne {
-  background-color: rgb(243, 239, 239);
+  background-color: rgb(236, 236, 248);
   text-align: center;
 }
 .container-fluid .rowMainOne .rowOne {
@@ -56,12 +95,23 @@
 }
 .container-fluid .rowMainOne .rowOne .cardOne {
   background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20rem;
+  border-radius: 10px;
+}
+.container-fluid .rowMainOne .rowOne .cardOne img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .container-fluid .rowMainOne .rowOne .cardOne .cardBodyOne {
+  color: #083775;
   margin: 10px;
 }
 .container-fluid .rowMainOne .rowOne .cardOne .cardBodyOne .cardTitleOne {
   margin: 10px;
+  font-weight: 600;
+  font-size: 20px;
 }
 .container-fluid .rowMainOne .rowOne .cardOne .cardBodyOne .cardTextOne {
   margin: 10px;
@@ -83,20 +133,76 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.whocontainer .row-whoone h1 {
+  font-size: 60px;
+  color: #083775;
+}
+.whocontainer .row-whotwo {
+  margin: 40px;
+}
 .whocontainer .row-whothree {
   justify-content: center;
   display: flex;
   flex-wrap: wrap;
+  margin: 30px;
 }
 .whocontainer .row-whothree img {
   height: 240px;
   width: 280px;
+  margin: 4px;
+  padding: 20px;
+  border-radius: 30px;
+}
+.whocontainer .row-whothree .buttoncontacto {
+  margin: 3;
+  padding: 3;
+}
+
+/*examenes main*/
+.container-fluid {
+  margin-top: 20px;
+}
+.container-fluid h1 {
+  font-size: 60px;
+  color: #083775;
+}
+.container-fluid .examenesImg {
+  display: block;
+  width: 100%;
+}
+.container-fluid h2 {
+  color: #0d1c68;
+  font-size: 45px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container-fluid p {
+  text-align: center;
+  font-size: 19px;
+}
+.container-fluid .buttonExam {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  padding-top: 10px;
+}
+.container-fluid .buttonExam .button {
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 /*cursos main*/
 .containercards-fluid h1 {
   color: #0d1c68;
   font-size: 60px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.containercards-fluid p {
+  color: #0d1c68;
+  font-size: 38px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -112,23 +218,30 @@
   margin-right: 100px;
   margin-left: 100px;
   margin-bottom: 30px;
+  border-radius: 20px;
+}
+.containercards-fluid .card-cursos img {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 .containercards-fluid .card-cursos .card-body {
   margin-top: 20px;
 }
 .containercards-fluid .card-cursos .card-body .card-title {
+  color: #083775;
   font-size: 30px;
   margin-top: 40px;
   margin-bottom: 10px;
   margin-left: 50px;
 }
-.containercards-fluid .card-cursos .card-body .card-text {
+.containercards-fluid .card-cursos .card-body .textcursos {
   font-size: 20px;
+  text-align: left;
   margin-top: 20px;
   margin-right: 40px;
   margin-bottom: 30px;
   margin-left: 50px;
-  line-height: 30px;
+  line-height: 35px;
 }
 .containercards-fluid .card-cursos .card-body .btnCursos {
   padding: 10px;
@@ -139,26 +252,24 @@
   margin-left: 50px;
 }
 
-/*examenes main*/
-.container-fluid h2 {
+/*contacto main*/
+.contactocont {
+  margin-left: 20px;
+}
+.contactocont .contacto-title {
   color: #0d1c68;
-  font-size: 45px;
+  font-size: 60px;
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.container-fluid .buttonExam {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-  padding-top: 10px;
+.contactocont img {
+  width: 50px;
+  height: 50px;
 }
-.container-fluid .buttonExam .button {
-  padding-right: 30px;
-  padding-left: 30px;
+.contactocont .mapa {
+  width: 100px;
 }
-
-/*contacto main*/
 .contactocont h3 {
   color: #0d1c68;
   font-size: 60px;
@@ -187,6 +298,15 @@
 .containerFluidNovedades .imagennovedades img {
   height: 200px;
   width: 500px;
+}
+.containerFluidNovedades .btn-noved {
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 15px;
+  background-color: #1b76dd;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 /*all pages footer*/

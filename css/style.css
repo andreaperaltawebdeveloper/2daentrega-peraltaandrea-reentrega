@@ -267,13 +267,12 @@ footer {
         margin-bottom: 30px;
     }
 
-    .containerFluidNovedades {
-        justify-content: center;
-    }
-
     .rowOne {
         display: flex;
         flex-wrap: wrap;
+    }
+    .containerFluidNovedades {
+        justify-content: center;
     }
 
     .textFour {
@@ -309,15 +308,15 @@ I
         margin-bottom: 30px;
     }
 
-    .containerFluidNovedades {
-        justify-content: center;
-    }
-
     .rowOne {
         display: flex;
         flex-wrap: wrap;
     }
 
+    .containerFluidNovedades {
+        justify-content: center;
+    }
+    
     .textFour {
         font-size: 45px;
     }

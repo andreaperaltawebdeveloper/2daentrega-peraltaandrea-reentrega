@@ -1,22 +1,37 @@
-
-
-//Diseñador nos da los datos de este archivo	
 //Tipografía - Fonts
 $title-principal: Arial, Helvetica, sans-serif;
-//$title-second: (font);
-//$parrafos: (font);
-
-//Variables
-//$light: 300;
-//$regular: 400;
-//$bold: entre 700;
-//$extrabold: 900;
+$title-second: Arial, Helvetica, sans-serif;
+$parrafos: Arial, Helvetica, sans-serif;
 
 //Colores
-
-$color-primary: #124485;
+$color-primary: #083775;
 $color-secondary: #4d96f7;
-//$background-color: #123123;
+$background-color: #f8f7ff;
 
-//EJEMPLO PARA TODO UN SECTOR POR EJ: BACKGROUND
-//$background-banner-index: url('../assets/banner-background.jpg');
+// MAPAS
+
+$my-font-sizes: (
+    xs: 10px, 
+    sm: 12px, 
+    md: 14px, 
+    l: 20px, 
+    xl: 22px
+    );
+
+@each $formato, $medida in $my-font-sizes {
+    .mfs-#{$formato}{
+        font-size: $medida;
+    }
+}
+
+$my-font-weights: (
+    light: 400, 
+    medium: 500, 
+    bold: 900, 
+    );
+
+@each $style, $weight in $my-font-weights {
+    .mfw-#{$style}{
+            font-size: $weight;
+        }
+    }
