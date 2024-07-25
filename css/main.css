@@ -59,6 +59,50 @@
   margin: 10px;
 }
 
+/*all pages header*/
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #4d96f7, #083775);
+  color: white;
+}
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 18px;
+}
+.navbar svg {
+  height: 22px;
+  width: 23px;
+  margin: 10px;
+}
+
+/*all pages header*/
+.logo {
+  height: 80px;
+  width: 80px;
+  margin-left: 10px;
+}
+
+.navbar {
+  background-image: linear-gradient(to left, #4d96f7, #083775);
+  color: white;
+}
+.navbar .nav-link {
+  font-size: 1.2rem;
+  color: white;
+  margin-left: 18px;
+}
+.navbar svg {
+  height: 22px;
+  width: 23px;
+  margin: 10px;
+}
+
 /*index main*/
 .carousel-inner img {
   width: 100%;
