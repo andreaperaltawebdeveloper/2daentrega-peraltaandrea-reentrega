@@ -11,7 +11,6 @@
 .container-fluid { 
     margin: 0px;
     padding: 0;
-   
     .rowTitleOne {
         text-align: center;
         margin-top: 35px;
@@ -31,6 +30,7 @@
         background-color: rgb(236, 236, 248);
         text-align: center;
         .rowOne {
+            display: flex;
             justify-content: center;
             background-color: #d0ddeb;
             padding: 80px;
@@ -43,6 +43,8 @@
                 img {
                     border-top-left-radius : 10px;
                     border-top-right-radius : 10px;
+                    display: flex;
+                    height: 300px
                 }
                 .cardBodyOne {
                     color: $color-primary;
@@ -103,6 +105,7 @@
             border-radius: 30px;
         }
     .buttoncontacto {
+        align-items: center;
         margin: 3;
         padding: 3;
     }
@@ -116,6 +119,7 @@
     h1 {
         font-size: 60px;
         color: $color-primary;
+        text-align: center;
     }
     .examenesImg {
         display: block;
@@ -210,7 +214,6 @@
 /*contacto main*/
 
 .contactocont { 
-    margin-left: 20px;
     .contacto-title {
         color: #0d1c68;
         font-size: 60px;
@@ -221,11 +224,9 @@
     img {
         width: 50px;
         height: 50px;
+        margin-left: 25px;
     }
-    .mapa {
-        width: 100px;
-    }
-    h3 {
+    h2 {
     color: #0d1c68;
     font-size: 60px;
     text-align: center;
@@ -234,6 +235,23 @@
     }
     img {
         height: 400px;
-        width: 650px;
+        width: 600px;
+    }
+    .formularioCont {
+        .formulario {
+            font-size: 10px;
+            font-weight:550;
+            color: #0d1c68;
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 10px;
+            padding-right: 50px;
+            border-radius: 20px;
+           }
+    }
+        .mapaCont {
+            p {
+                text-align: center;
+            }
     }
 } 

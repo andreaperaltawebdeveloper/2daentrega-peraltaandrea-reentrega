@@ -133,6 +133,7 @@
   text-align: center;
 }
 .container-fluid .rowMainOne .rowOne {
+  display: flex;
   justify-content: center;
   background-color: #d0ddeb;
   padding: 80px;
@@ -147,6 +148,8 @@
 .container-fluid .rowMainOne .rowOne .cardOne img {
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  display: flex;
+  height: 300px;
 }
 .container-fluid .rowMainOne .rowOne .cardOne .cardBodyOne {
   color: #083775;
@@ -198,6 +201,7 @@
   border-radius: 30px;
 }
 .whocontainer .row-whothree .buttoncontacto {
+  align-items: center;
   margin: 3;
   padding: 3;
 }
@@ -209,6 +213,7 @@
 .container-fluid h1 {
   font-size: 60px;
   color: #083775;
+  text-align: center;
 }
 .container-fluid .examenesImg {
   display: block;
@@ -297,9 +302,6 @@
 }
 
 /*contacto main*/
-.contactocont {
-  margin-left: 20px;
-}
 .contactocont .contacto-title {
   color: #0d1c68;
   font-size: 60px;
@@ -310,11 +312,9 @@
 .contactocont img {
   width: 50px;
   height: 50px;
+  margin-left: 25px;
 }
-.contactocont .mapa {
-  width: 100px;
-}
-.contactocont h3 {
+.contactocont h2 {
   color: #0d1c68;
   font-size: 60px;
   text-align: center;
@@ -323,34 +323,43 @@
 }
 .contactocont img {
   height: 400px;
-  width: 650px;
+  width: 600px;
+}
+.contactocont .formularioCont .formulario {
+  font-size: 10px;
+  font-weight: 550;
+  color: #0d1c68;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-right: 50px;
+  border-radius: 20px;
+}
+.contactocont .mapaCont p {
+  text-align: center;
 }
 
 /*index aside*/
 .containerFluidNovedades {
   padding: 60px;
-  justify-content: center;
 }
 .containerFluidNovedades .textFour {
   text-align: center;
   font-size: 55px;
   color: #0d1c68;
 }
-.containerFluidNovedades .imagennovedades {
-  align-items: center;
-}
 .containerFluidNovedades .imagennovedades img {
   height: 200px;
   width: 500px;
 }
-.containerFluidNovedades .btn-noved {
+.containerFluidNovedades .btnnovedades {
+  margin-top: 20px;
+  margin-left: 10px;
   padding: 10px;
-  margin-top: 50px;
-  margin-left: 15px;
-  background-color: #1b76dd;
+  background-color: #4e6af8;
   color: white;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /*all pages footer*/
@@ -370,7 +379,6 @@ footer .container-pie svg {
   height: 25px;
   width: 30px;
   margin: 20px;
-  color: white;
   margin: 5px;
 }
 
