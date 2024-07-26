@@ -415,6 +415,16 @@ footer .container-pie svg {
   .containercards-fluid .card-cursos img {
     height: 300px;
   }
+  /*Contacto main*/
+  main {
+    margin: 10px;
+  }
+  main .contactocont img {
+    width: 700px;
+    height: 300px;
+    padding: 0px;
+    margin: 20px;
+  }
 }
 /*MEDIA QUERIES - mobile*/
 @media (max-width: 480px) {
@@ -446,6 +456,16 @@ footer .container-pie svg {
   }
   .containercards-fluid .card-cursos img {
     height: 300px;
+  }
+  /*Contacto main*/
+  main {
+    margin: 10px;
+  }
+  main .contactocont img {
+    width: 400px;
+    height: 180px;
+    padding: 0px;
+    margin: 20px;
   }
 }
 

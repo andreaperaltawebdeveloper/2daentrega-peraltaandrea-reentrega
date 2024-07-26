@@ -46,6 +46,20 @@
             }
         }
     }
+    /*Contacto main*/
+
+    main {
+        margin: 10px;
+
+        .contactocont {
+            img {
+                width: 700px;
+                height: 300px;
+                padding: 0px;
+                margin: 20px;
+            }
+        }
+    }
 }
 
 /*MEDIA QUERIES - mobile*/
@@ -92,6 +106,21 @@
         .card-cursos {
             img {
                 height: 300px;
+            }
+        }
+    }
+
+    /*Contacto main*/
+
+    main {
+        margin: 10px;
+
+        .contactocont {
+            img {
+                width: 400px;
+                height: 180px;
+                padding: 0px;
+                margin: 20px;
             }
         }
     }
